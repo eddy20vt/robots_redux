@@ -1,0 +1,44 @@
+{
+    "en": {
+        "locale": {
+            "title": "English"
+        },
+        "app": {
+            "user_selector": "User Selector",
+            "selected_user": "Selected User"
+        },
+        "user": {
+            "id": "id",
+            "full_name": "Full name",
+            "name": "Name",
+            "surname": "Surname",
+            "email": "Email",
+            "age": "Age",
+            "phone": "Phone number",
+            "countries": "Visited countries",
+            "skills": "Skills",
+            "ip_address": "IP Address"
+        }
+    },
+    "es": {
+        "locale": {
+            "title": "Espanol"
+        },
+        "app": {
+            "user_selector": "Selector de Usuario",
+            "selected_user": "Usuario seleccionado"
+        },
+        "user": {
+            "id": "id",
+            "full_name": "Nombre completo",
+            "name": "Nombre",
+            "surname": "Apellido",
+            "email": "Correo electronico",
+            "age": "Edad",
+            "phone": "Numero de Telefono",
+            "countries": "Paises visitados",
+            "skills": "Abilidades",
+            "ip_address": "Direccion IP"
+        }
+    }
+}
