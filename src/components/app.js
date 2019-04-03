@@ -4,6 +4,7 @@ import PropTypes from 'prop-types'
 import LanguageSelector from 'containers/components/language-selector'
 import UserList from 'containers/components/user-list'
 import UserProfile from 'containers/components/user-profile'
+import FavoritesFrame from 'containers/components/favorites'
 
 import { Container, Col, Row } from 'react-bootstrap'
 
@@ -25,6 +26,7 @@ const App = ({
                     <Col>
                         <h1>{ locale.selected_user }</h1>
                         <UserProfile user={selectedUser} />
+                        <FavoritesFrame/>
                     </Col>
                 </Row>
             </Container>

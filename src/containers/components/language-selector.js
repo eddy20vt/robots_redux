@@ -5,7 +5,6 @@ import { setLanguage } from 'modules/locales'
 import LanguageSelector from 'components/language-selector'
 
 const mapStateToProps = ({ locales, language }) => {
-    console.log(language)
     return {
         languages: Object.keys(locales),
         selectedLanguage: language

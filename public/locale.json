@@ -5,7 +5,9 @@
         },
         "app": {
             "user_selector": "User Selector",
-            "selected_user": "Selected User"
+            "selected_user": "Selected User",
+            "favorites_tittle": "Added Users",
+            "add_button_text": "Add User"
         },
         "user": {
             "id": "id",
@@ -26,7 +28,9 @@
         },
         "app": {
             "user_selector": "Selector de Usuario",
-            "selected_user": "Usuario seleccionado"
+            "selected_user": "Usuario seleccionado",
+            "favorites_tittle": "Usuarios añadidos",
+            "add_button_text": "Añadir Usuario"
         },
         "user": {
             "id": "id",

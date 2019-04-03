@@ -35,7 +35,7 @@ AppContainer.propTypes = {
     locale: PropTypes.object,
     users: PropTypes.array,
     fetchLocales: PropTypes.func,
-    fetchUsers: PropTypes.func,
+    fetchUsers: PropTypes.func
 }
 
 const mapStateToProps = ({ users, userId, language, locales }) => {
@@ -56,7 +56,7 @@ const mapStateToProps = ({ users, userId, language, locales }) => {
 
 const mapDispatchToProps = {
     fetchLocales,
-    fetchUsers,
+    fetchUsers
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(AppContainer)
